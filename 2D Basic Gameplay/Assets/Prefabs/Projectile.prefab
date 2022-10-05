@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3052784786934703957}
   - component: {fileID: 3052784786934703952}
   - component: {fileID: 5609270483725797281}
-  - component: {fileID: 504817175}
   - component: {fileID: 5822896462238649587}
   m_Layer: 0
   m_Name: Projectile
@@ -136,21 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topBound: 15
-  lowerBount: 0
---- !u!114 &504817175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3052784786934703956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d8452748ca3cf44f9db269c6109e370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 10
-  lowerBount: 0
+  lowerBound: -10
 --- !u!61 &5822896462238649587
 BoxCollider2D:
   m_ObjectHideFlags: 0
