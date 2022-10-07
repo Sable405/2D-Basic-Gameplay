@@ -17,7 +17,12 @@ public class DestroyOutOfBounds : MonoBehaviour
 
         if(transform.position.y < lowerBound)
         {
+            Debug.Log("Game Over You suck");
             Destroy(this.gameObject);
         }
+
+        
     }
+
+
 }
